@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Baloo Bhai 2", sans-serif;
+    
+    }
+    
+    .flex-container{
+        display :flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; 
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+    }
+    .card{
+        height: 82vh;
+    }
+    .card-img-top{
+        width: 287px;
+        height: 200px;
+    }
+    
+    .card-text{
+    
+        font-weight: 500;
+        text-align: justify;
+    }
+    
+    .btn{
+        margin-left: 160px; 
+        position: relative;
+        bottom: 70px;
+        background-color:#596FB7 ;
+    }
+    .price{
+        
+        font-weight: bold;
+        color: #191D88;
+    }
+    
+    
+    
+    
